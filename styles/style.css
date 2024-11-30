@@ -22,7 +22,10 @@
     align-items: center;
     background-color: var(--pinkBg);
     height: var(--navBar-height);
-    position: fixed;
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
 }
 
 #navBar > *{
