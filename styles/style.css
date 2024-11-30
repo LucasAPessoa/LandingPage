@@ -17,8 +17,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(252, 207, 231);
+    background-color: var(--pinkBg);
     height: 8em;
+    position: fixed;
 }
 
 #navBar > *{
