@@ -5,6 +5,7 @@
     /* Colors */
     --pinkBg: rgb(252, 207, 231);
     /* navBar */
+--navBar-height: 8em;
 }
 
 /* General */
@@ -20,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--pinkBg);
-    height: 8em;
+    height: var(--navBar-height);
     position: fixed;
 }
 
