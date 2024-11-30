@@ -1,5 +1,10 @@
 @charset 'UTF-8';
 
+/* Var */
+:root {
+    --pinkBg: rgb(252, 207, 231);
+}
+
 /* General */
 
 * {
