@@ -6,6 +6,8 @@
     --pinkBg: rgb(252, 207, 231);
     /* navBar */
     --navBar-height: 8em;
+    /* Fonts */
+    --logoType: "Busorama"
 }
 
 /* Fonts */
@@ -52,7 +54,7 @@
 }
 
 #logoTitle{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--logoType);
     font-size: 3em;
 }
 
