@@ -8,6 +8,13 @@
     --navBar-height: 8em;
 }
 
+/* Fonts */
+
+@font-face {
+    font-family: Busorama;
+    src: url(../fonts/busorama.ttf);
+}
+
 /* General */
 
 * {
