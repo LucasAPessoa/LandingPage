@@ -27,5 +27,17 @@
 
 /* Hero Section */
 
+#heroPage {
+    min-height: 100vh;
+    background: rgb(255,26,204);
+    background: radial-gradient(circle, rgba(255,26,204,1) 0%, rgba(229,70,252,1) 100%);
+      
+}
+
+#heroTitle {
+    color: white;
+    font-family: "Busorama";
+    font-size: 40px;
+}
 
 /* Suppliers Section */
