@@ -10,11 +10,11 @@
 /* Var */
 :root {
     /* Colors */
-    
+    --whiteBg: #ebebeb
     /* navBar */
- 
+    --navBar-height: 8em
     /* Fonts */
-
+    --logoType: "Busorama"
 }
 
 /* General */
@@ -23,20 +23,59 @@
     margin: 0;
 }
 
+/* Navigation Bar */
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--whiteBg);
+    height: var(--navBar-height);
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
 
+#navBar > *{
+    display: flex;
+    flex-direction: row;
+    padding: 0 3em 0 2em;
+}
+
+#navLogo{
+    width: 5em;
+    height: 5em;
+}
+
+#leftNavSide{
+    align-items: center;
+    gap: 2em;
+}
+
+#logoTitle{
+    font-family: var(--logoType);
+    font-size: 3em;
+}
+
+#sections{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    list-style: none;
+}
 
 /* Hero Section */
 
 #heroPage {
     min-height: 100vh;
-    background: rgb(255,26,204);
-    background: radial-gradient(circle, rgba(255,26,204,1) 0%, rgba(229,70,252,1) 100%);
+    background: linear-gradient(135deg, #d54183 50%, #ffde59 100%);
       
 }
 
 #heroTitle {
     color: white;
-    font-family: "Busorama";
+    font-family: 'Busorama';
     font-size: 40px;
 }
 
