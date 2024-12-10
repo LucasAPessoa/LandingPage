@@ -10,11 +10,13 @@
 /* Var */
 :root {
     /* Colors */
-    --whiteBg: #ebebeb
+    --whiteBg: #ebebeb;
+    --pinkHeroBg: #d54183;
+    --yellowHeroBg: #ffde59;
     /* navBar */
-    --navBar-height: 8em
+    --navBar-height: 8em;
     /* Fonts */
-    --logoType: "Busorama"
+    --logoType: "Busorama";
 }
 
 /* General */
@@ -69,7 +71,7 @@
 
 #heroPage {
     min-height: 100vh;
-    background: linear-gradient(135deg, #d54183 50%, #ffde59 100%);
+    background: linear-gradient(135deg, var(--pinkHeroBg) 10%,var(--yellowHeroBg)  100%);
       
 }
 
